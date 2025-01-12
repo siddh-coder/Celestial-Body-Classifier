@@ -29,14 +29,6 @@ st.set_page_config(
     initial_sidebar_state="auto"
 )
 
-bg = """<style>[data-testid="stAppViewContainer"]{
-    background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg");
-    backgground-size: 10% 10%;
-}
-    </style>"""
-
-st.markdown(bg, unsafe_allow_html=True)
-
 # Streamlit App
 st.title("Celestial Body(Star, Galaxy, Quasar) Classification")
 st.write(
