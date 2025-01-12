@@ -31,6 +31,7 @@ st.set_page_config(
 
 bg = """<style>[data-testid="stAppViewContainer"]{
     background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg");
+    backgground-size: 10% 10%;
 }
     </style>"""
 
