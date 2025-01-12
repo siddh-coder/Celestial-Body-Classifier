@@ -22,6 +22,20 @@ features = [
     "alpha", "delta", "u", "g", "r", "i", "z", "redshift"
 ]
 
+st.set_page_config(
+    page_title="SpectraSense",
+    page_icon="🌌",
+    layout="centered",
+    initial_sidebar_state="auto"
+)
+
+bg = """<style>[data-testid="stAppViewContainer"]{
+    background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg");
+}
+    </style>"""
+
+st.markdown(bg, unsafe_allow_html=True)
+
 # Streamlit App
 st.title("Celestial Body(Star, Galaxy, Quasar) Classification")
 st.write(
